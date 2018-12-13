@@ -1,4 +1,8 @@
-button {
+.move {
     position: absolute;
     padding: 20px;
+}
+
+.riddle {
+    display: none;
 }
