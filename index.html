@@ -5,6 +5,8 @@
 </script><style>.move {
     position: absolute;
     padding: 20px;
+    top: 500px;
+    left: 500px;
 }
 
 .riddle {
@@ -30,6 +32,7 @@ setInterval(function() {
 
 $(".move").click(function() {
     $(".riddle").show();
+    $(".move").hide();
 });
 
 $(".submit").click(function() {
