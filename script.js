@@ -5,6 +5,7 @@ setInterval(function() {
 
 $(".move").click(function() {
     $(".riddle").show();
+    $(".move").hide();
 });
 
 $(".submit").click(function() {
